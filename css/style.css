@@ -1,0 +1,172 @@
+.bgimg{
+    background-image: url('../darya.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+
+}
+
+.headerset h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.headerset p{
+    font-size: 40px;
+}
+
+.headerset h1{
+    padding-bottom: 400px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* ----------------------------------------------------------------ourservices------------------------------------------- */
+
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 500px;
+}
+
+.ourservices h1{
+font-size: 50px;
+font-weight: bold;
+}
+
+.rowsetting{
+    margin: 80px 0px !important;
+}
+
+/* .imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+} */
+
+/* -----------------------gallary----------------------- */
+
+.gallary{
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+
+.gallary h1{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+/* .card{
+    margin-top: 40px;
+} */
+
+
+.more{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* ------------------------------------team------------------ */
+
+
+.team{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+
+.team h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 70px !important;
+}
+
+/* .footer-copyright{
+    font-size: ;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------responsive------------------ */
+
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+
+}
+
+@media(max-width: 479px){
+
+    .headerset h2{
+        font-size: 42px;
+        font-weight: bold;
+    }
+    
+    .headerset p{
+        font-size: 40px;
+    }
+
+    .headerset h1{
+        padding-bottom: 400px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .team{
+        height: 700px;
+        padding: 100px 0px 60px;
+        width: 100%;
+    }
+    
+    .team h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .teamsetting{
+        margin-top: 70px !important;
+    }
+}
